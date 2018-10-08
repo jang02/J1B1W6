@@ -18,7 +18,7 @@ for (var i = 0; i < 5; i++){
 	for (var b = 0; b < moves; b++){
 		robotArm.moveLeft();
 }
-	moves = moves - 1;
+	moves--;
 }
 // De door jou opgegeven instructies uitvoeren
 robotArm.run();
